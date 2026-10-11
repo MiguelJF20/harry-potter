@@ -109,8 +109,19 @@ h1, h2, h3, h4, h5, .hp-title {
     display: block;
 }
 
+/* Carousel */
+.hogwarts-carousel {
+    height: 310px;
+}
+
 .hogwarts-carousel .carousel-item {
     width: 260px;
+    height: 300px; 
+}
+
+.hogwarts-carousel .carousel-item > img {
+    display: block;
+    width: 100%;
 }
 
 .hogwarts-carousel-caption {
