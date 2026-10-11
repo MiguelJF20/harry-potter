@@ -1,0 +1,16 @@
+/* ===== GENERAL (compartido) ===== */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+.hogwarts-nav,
+.hogwarts-footer {
+    background-color: #740001; /* rojo Gryffindor */
+}
+.hogwarts-nav .brand-logo {
+    font-size: 1.8rem;
+}
