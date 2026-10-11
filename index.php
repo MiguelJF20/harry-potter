@@ -22,7 +22,7 @@
                 sus materias y los lugares más icónicos del castillo,
                 todo construido con el framework front-end <strong>Materialize</strong>.
             </p>
-            <a href="casas.php" class="btn-large hp-btn waves-effect waves-light" style="background-color:#4a1f6f;">
+            <a href="integrantes.php" class="btn-large hp-btn waves-effect waves-light" style="background-color:#4a1f6f;">
                 <i class="material-icons left">auto_stories</i>Comenzar el recorrido
             </a>
         </div>
