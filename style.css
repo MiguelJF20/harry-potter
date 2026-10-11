@@ -102,26 +102,14 @@ h1, h2, h3, h4, h5, .hp-title {
 
 /* ===== HOGWARTS - integrante 2 ===== */
 
-/* Emblemas de las casas */
 .hogwarts-emblem {
     width: 150px;
     margin: 18px auto 0 auto;
     display: block;
 }
 
-/* Carousel */
-.hogwarts-carousel {
-    height: 310px;
-}
-
 .hogwarts-carousel .carousel-item {
-    width: 260px;
-    height: 300px; 
-}
-
-.hogwarts-carousel .carousel-item > img {
-    display: block;
-    width: 100%;
+    width: 520px;
 }
 
 .hogwarts-carousel-caption {
