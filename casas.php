@@ -11,7 +11,7 @@
 
     <div class="section hp-purple white-text" style="background-color:#2a1140;">
         <div class="container">
-            <h2 class="hp-title white-text" style="margin-bottom:0;">Las 4 Casas de Hogwarts</h2>
+            <h2 class="hp-title white-text" style="margin-bottom:10;">Las 4 Casas de Hogwarts</h2>
         </div>
     </div>
 
