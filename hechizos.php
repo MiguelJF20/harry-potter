@@ -10,30 +10,32 @@
     <main>
 
         <!-- ===== SLIDER (componente 3) ===== -->
-        <div class="slider magia-slider">
-            <ul class="slides">
-                <li>
-                    <img src="img/hechizo1.jpg" alt="Duelo de varitas">
-                    <div class="caption left-align">
-                        <h3>Hechizos</h3>
-                        <h5 class="light grey-text text-lighten-3">La magia empieza con una varita y las palabras correctas.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="img/hechizo2.jpg" alt="Patronus">
-                    <div class="caption center-align">
-                        <h3>Expecto Patronum</h3>
-                        <h5 class="light grey-text text-lighten-3">Defensa contra los dementores.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="img/hechizo3.jpg" alt="Clase de encantamientos">
-                    <div class="caption right-align">
-                        <h3>Clase de Encantamientos</h3>
-                        <h5 class="light grey-text text-lighten-3">Hermione logra lanzar el hechizo Wingardium Leviosa sin errores.</h5>
-                    </div>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="slider magia-slider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/hechizo1.jpg" alt="Harry Potter con su varita">
+                        <div class="caption left-align">
+                            <h3>Hechizos</h3>
+                            <h5 class="light grey-text text-lighten-3">La magia empieza con una varita y las palabras correctas.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/hechizo2.jpg" alt="Patronus">
+                        <div class="caption center-align">
+                            <h3>Expecto Patronum</h3>
+                            <h5 class="light grey-text text-lighten-3">Defensa contra los dementores.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/hechizo3.jpg" alt="Clase de encantamientos">
+                        <div class="caption right-align">
+                            <h3>Clase de Encantamientos</h3>
+                            <h5 class="light grey-text text-lighten-3">Hermione logra lanzar el hechizo Wingardium Leviosa sin errores.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div class="container">
@@ -131,9 +133,10 @@
     </main>
 
     <?php include_once("INCLUDES/footer.php"); ?>
+
     <script>
         M.Slider.init(document.querySelectorAll('.slider'), {
-            height: 450,
+            height: 500,
             interval: 5000
         });
     </script>
