@@ -2,26 +2,24 @@
 <html lang="es">
 <head>
     <?php include_once("INCLUDES/head.php"); ?>
-    <link rel="stylesheet" href="style-plantilla.css">
 </head>
 <body>
 
 <?php include_once("INCLUDES/header.php"); ?>
 
 <main>
-
     <!-- PARALLAX de bienvenida (componente compartido) -->
     <div class="parallax-container">
-        <div class="parallax"><img src="img/hogwarts-hero.svg" alt="Castillo de Hogwarts"></div>
+        <div class="parallax"><img src="img/hogwarts.jpg" alt="Castillo de Hogwarts"></div>
     </div>
 
     <div class="section white center">
         <div class="container">
-            <h1 class="hp-title">Mundo M&aacute;gico de Harry Potter</h1>
+            <h1 class="hp-title">Mundo Mágico de Harry Potter</h1>
             <div class="divider-gold" style="margin-left:auto;margin-right:auto;"></div>
             <p class="flow-text">
                 Bienvenido al proyecto web del grupo. Explora las casas de Hogwarts,
-                sus materias y los lugares m&aacute;s ic&oacute;nicos del castillo,
+                sus materias y los lugares más icónicos del castillo,
                 todo construido con el framework front-end <strong>Materialize</strong>.
             </p>
             <a href="casas.php" class="btn-large hp-btn waves-effect waves-light" style="background-color:#4a1f6f;">
