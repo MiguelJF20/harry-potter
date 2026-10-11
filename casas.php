@@ -26,19 +26,19 @@
 
             <div class="carousel hogwarts-carousel">
                 <a class="carousel-item" href="#gryffindor">
-                    <img src="img/gryffindor.svg" alt="Emblema de Gryffindor">
+                    <img src="img/gryffindor.jpg" alt="Emblema de Gryffindor">
                     <div class="hogwarts-carousel-caption">Gryffindor</div>
                 </a>
                 <a class="carousel-item" href="#slytherin">
-                    <img src="img/slytherin.svg" alt="Emblema de Slytherin">
+                    <img src="img/slytherin.jpg" alt="Emblema de Slytherin">
                     <div class="hogwarts-carousel-caption">Slytherin</div>
                 </a>
                 <a class="carousel-item" href="#ravenclaw">
-                    <img src="img/ravenclaw.svg" alt="Emblema de Ravenclaw">
+                    <img src="img/ravenclaw.jpg" alt="Emblema de Ravenclaw">
                     <div class="hogwarts-carousel-caption">Ravenclaw</div>
                 </a>
                 <a class="carousel-item" href="#hufflepuff">
-                    <img src="img/hufflepuff.svg" alt="Emblema de Hufflepuff">
+                    <img src="img/hufflepuff.jpg" alt="Emblema de Hufflepuff">
                     <div class="hogwarts-carousel-caption">Hufflepuff</div>
                 </a>
             </div>
@@ -64,7 +64,7 @@
                 <div id="gryffindor" class="col s12">
                     <div class="row" style="margin-top:24px;">
                         <div class="col s12 m3 center">
-                            <img src="img/gryffindor.svg" alt="Gryffindor" style="width:120px;">
+                            <img src="img/gryffindor.jpg" alt="Gryffindor" style="width:120px;">
                         </div>
                         <div class="col s12 m9">
                             <h5>Gryffindor</h5>
@@ -82,7 +82,7 @@
                 <div id="slytherin" class="col s12">
                     <div class="row" style="margin-top:24px;">
                         <div class="col s12 m3 center">
-                            <img src="img/slytherin.svg" alt="Slytherin" style="width:120px;">
+                            <img src="img/slytherin.jpg" alt="Slytherin" style="width:120px;">
                         </div>
                         <div class="col s12 m9">
                             <h5>Slytherin</h5>
@@ -100,7 +100,7 @@
                 <div id="ravenclaw" class="col s12">
                     <div class="row" style="margin-top:24px;">
                         <div class="col s12 m3 center">
-                            <img src="img/ravenclaw.svg" alt="Ravenclaw" style="width:120px;">
+                            <img src="img/ravenclaw.jpg" alt="Ravenclaw" style="width:120px;">
                         </div>
                         <div class="col s12 m9">
                             <h5>Ravenclaw</h5>
@@ -118,7 +118,7 @@
                 <div id="hufflepuff" class="col s12">
                     <div class="row" style="margin-top:24px;">
                         <div class="col s12 m3 center">
-                            <img src="img/hufflepuff.svg" alt="Hufflepuff" style="width:120px;">
+                            <img src="img/hufflepuff.jpg" alt="Hufflepuff" style="width:120px;">
                         </div>
                         <div class="col s12 m9">
                             <h5>Hufflepuff</h5>
