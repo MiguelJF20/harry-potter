@@ -14,3 +14,67 @@ main {
 .hogwarts-nav .brand-logo {
     font-size: 1.8rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== MAGIA - integrante 3 ===== */
+.magia-slider {
+    background-color: #1a1a2e; /* se ve si falta una imagen */
+}
+.magia-slider .slides li img {
+    object-fit: cover;
+}
+.chip-encantamiento { background-color: #ecb939; color: #2a2000; }
+.chip-defensa       { background-color: #0e1a40; color: #ffffff; }
+.chip-utilidad      { background-color: #2a623d; color: #ffffff; }
+.chip-oscuro        { background-color: #1a1a1a; color: #ffffff; }
