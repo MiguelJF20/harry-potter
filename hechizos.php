@@ -131,5 +131,11 @@
     </main>
 
     <?php include_once("INCLUDES/footer.php"); ?>
+    <script>
+        M.Slider.init(document.querySelectorAll('.slider'), {
+            height: 450,
+            interval: 5000
+        });
+    </script>
 </body>
 </html>
