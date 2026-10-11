@@ -18,7 +18,7 @@
 </ul>
 
 <!-- Navbar -->
-<nav class="hogwarts-nav">
+<nav class="hp-nav">
     <div class="nav-wrapper container">
         <a href="index.php" class="brand-logo">Mundo Mágico</a>
 
