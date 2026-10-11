@@ -20,7 +20,7 @@
 <!-- Navbar -->
 <nav class="hogwarts-nav">
     <div class="nav-wrapper container">
-        <a href="index.php" class="brand-logo">Harry Potter</a>
+        <a href="index.php" class="brand-logo">Mundo Mágico</a>
 
         <!-- Botón hamburguesa para celular -->
         <a href="#" data-target="menu-movil" class="sidenav-trigger">

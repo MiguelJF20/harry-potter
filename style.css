@@ -7,12 +7,37 @@ body {
 main {
     flex: 1 0 auto;
 }
-.hogwarts-nav,
-.hogwarts-footer {
-    background-color: #740001; /* rojo Gryffindor */
+
+/* ---------- Navbar ---------- */
+
+.hp-navbar {
+    background-color: var(--hp-purple);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
 }
+
+.hogwarts-nav {
+    background-color: var(--hp-purple);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+}
+
 .hogwarts-nav .brand-logo {
-    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hp-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* ---------- Footer ---------- */
+.hp-footer {
+    background-color: var(--hp-purple);
+}
+
+.hp-footer .footer-copyright {
+    background-color: rgba(0, 0, 0, .25);
 }
 
 
