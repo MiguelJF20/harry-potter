@@ -12,9 +12,6 @@
     <div class="section hp-purple white-text" style="background-color:#2a1140;">
         <div class="container">
             <h2 class="hp-title white-text" style="margin-bottom:0;">Las 4 Casas de Hogwarts</h2>
-            <p class="grey-text text-lighten-3">
-                Página desarrollada por el Integrante 2 con los componentes Carousel, Tabs y Collection.
-            </p>
         </div>
     </div>
 
