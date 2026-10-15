@@ -9,7 +9,7 @@
 
     <main>
 
-        <!-- ===== SLIDER (componente 3) ===== -->
+        <!-- ===== SLIDER (SIN MODIFICACIONES) ===== -->
         <div class="container">
             <div class="slider magia-slider">
                 <ul class="slides">
@@ -40,7 +40,7 @@
 
         <div class="container">
 
-            <!-- ===== CHIPS (componente 2) ===== -->
+            <!-- ===== CHIPS ===== -->
             <div class="section">
                 <h4>Tipos de pociones</h4>
                 <p>Cada poción tiene un propósito distinto. Estas son las categorías de la tabla:</p>
@@ -51,64 +51,117 @@
                 <div class="chip chip-mente">Mente y emociones</div>
             </div>
 
-            <!-- ===== TABLE (componente 1) ===== -->
+            <!-- ===== TARJETAS DESTACADAS ===== -->
+            <div class="section">
+                <h4>Elixires extraordinarios</h4>
+                <p>Algunas pociones pueden transformar la apariencia, influir en las emociones o alterar la suerte.</p>
+
+                <div class="row tarjetas-magicas">
+
+                    <div class="col s4">
+                        <div class="card tarjeta-pocion tarjeta-transformacion">
+                            <div class="card-content">
+                                <span class="card-title">Poción Multijugos</span>
+                                <p class="etiqueta-tarjeta">TRANSFORMACIÓN</p>
+                                <p>Permite adoptar la apariencia física de otra persona durante un tiempo limitado.</p>
+                                <p class="personaje-tarjeta">Ejemplo: Hermione Granger</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-pocion tarjeta-suerte">
+                            <div class="card-content">
+                                <span class="card-title">Felix Felicis</span>
+                                <p class="etiqueta-tarjeta">SUERTE</p>
+                                <p>También conocida como suerte líquida, favorece el éxito de quien la bebe.</p>
+                                <p class="personaje-tarjeta">Preparada por: Horace Slughorn</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-pocion tarjeta-mente">
+                            <div class="card-content">
+                                <span class="card-title">Amortentia</span>
+                                <p class="etiqueta-tarjeta">MENTE Y EMOCIONES</p>
+                                <p>Es una poderosa poción de amor que provoca una obsesión intensa, no amor verdadero.</p>
+                                <p class="personaje-tarjeta">Presentada por: Horace Slughorn</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ===== TABLA ===== -->
             <div class="section">
                 <h4>Pociones más conocidas</h4>
+                <p>Consulta el efecto, la categoría y el personaje relacionado con cada poción.</p>
 
-                <table class="striped responsive-table">
+                <table class="striped responsive-table tabla-magica">
                     <thead>
                         <tr>
-                            <th>Poción</th>
-                            <th>Efecto</th>
-                            <th>Categoría</th>
-                            <th>Quién la usa o prepara</th>
+                            <th scope="col">Poción</th>
+                            <th scope="col">Efecto</th>
+                            <th scope="col">Categoría</th>
+                            <th scope="col">Quién la usa o prepara</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Poción Multijugos</td>
-                            <td>Transforma a quien la bebe en otra persona por una hora</td>
-                            <td><div class="chip chip-transformacion">Transformación</div></td>
+                        <tr class="fila-transformacion">
+                            <td><strong>Poción Multijugos</strong></td>
+                            <td>Permite adoptar la apariencia de otra persona durante un tiempo limitado.</td>
+                            <td><span class="chip chip-transformacion">Transformación</span></td>
                             <td>Hermione Granger</td>
                         </tr>
-                        <tr>
-                            <td>Felix Felicis</td>
-                            <td>Da buena suerte en todo lo que se intenta</td>
-                            <td><div class="chip chip-suerte">Suerte</div></td>
+                        <tr class="fila-suerte">
+                            <td><strong>Felix Felicis</strong></td>
+                            <td>Favorece la suerte de quien la bebe durante un periodo limitado.</td>
+                            <td><span class="chip chip-suerte">Suerte</span></td>
                             <td>Horace Slughorn</td>
                         </tr>
-                        <tr>
-                            <td>Veritaserum</td>
-                            <td>Obliga a decir la verdad a quien la toma</td>
-                            <td><div class="chip chip-mente">Mente y emociones</div></td>
+                        <tr class="fila-mente">
+                            <td><strong>Veritaserum</strong></td>
+                            <td>Hace que quien la toma revele la verdad.</td>
+                            <td><span class="chip chip-mente">Emociones</span></td>
                             <td>Severus Snape</td>
                         </tr>
-                        <tr>
-                            <td>Amortentia</td>
-                            <td>Provoca una fuerte obsesión amorosa</td>
-                            <td><div class="chip chip-mente">Mente y emociones</div></td>
+                        <tr class="fila-mente">
+                            <td><strong>Amortentia</strong></td>
+                            <td>Provoca una intensa obsesión amorosa.</td>
+                            <td><span class="chip chip-mente">Emociones</span></td>
                             <td>Horace Slughorn</td>
                         </tr>
-                        <tr>
-                            <td>Filtro de los Muertos en Vida</td>
-                            <td>Causa un sueño tan profundo que parece la muerte</td>
-                            <td><div class="chip chip-mente">Mente y emociones</div></td>
-                            <td>Horace Slughorn</td>
+                        <tr class="fila-mente">
+                            <td><strong>Filtro de los Muertos en Vida</strong></td>
+                            <td>Produce un sueño extremadamente profundo.</td>
+                            <td><span class="chip chip-mente">Emociones</span></td>
+                            <td>Conocido por Horace Slughorn</td>
                         </tr>
-                        <tr>
-                            <td>Crecehuesos</td>
-                            <td>Regenera los huesos rotos o desaparecidos</td>
-                            <td><div class="chip chip-curacion">Curación</div></td>
+                        <tr class="fila-curacion">
+                            <td><strong>Crecehuesos</strong></td>
+                            <td>Ayuda a regenerar huesos rotos o desaparecidos.</td>
+                            <td><span class="chip chip-curacion">Curación</span></td>
                             <td>Madame Pomfrey</td>
                         </tr>
-                        <tr>
-                            <td>Poción de Mandrágora</td>
-                            <td>Devuelve a la normalidad a quien fue petrificado</td>
-                            <td><div class="chip chip-curacion">Curación</div></td>
-                            <td>Madame Pomfrey</td>
+                        <tr class="fila-curacion">
+                            <td><strong>Poción de Mandrágora</strong></td>
+                            <td>Elaborada con mandrágoras maduras, puede revertir ciertos casos de petrificación.</td>
+                            <td><span class="chip chip-curacion">Curación</span></td>
+                            <td>Madame Pomfrey y profesores de Hogwarts</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <!-- ===== DATO CURIOSO ===== -->
+            <div class="section dato-magico dato-pociones">
+                <h5>¿Sabías que...?</h5>
+                <p>
+                    La Felix Felicis no debe utilizarse de manera excesiva.
+                    En la historia, su efecto es temporal y preparar esta poción requiere mucho cuidado.
+                </p>
             </div>
 
         </div>
@@ -117,9 +170,10 @@
     <?php include_once("INCLUDES/footer.php"); ?>
 
     <script>
-        M.Slider.init(document.querySelectorAll('.slider'), {
-            height: 500,
-            interval: 5000
+        M.Slider.init(document.querySelectorAll('.magia-slider'), {
+            height: 550,
+            interval: 5000,
+            indicators: true
         });
     </script>
 </body>
