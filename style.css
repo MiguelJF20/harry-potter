@@ -129,6 +129,26 @@ h1, h2, h3, h4, h5, .hp-title {
     justify-content: center;
 }
 
+.hogwarts-tabs .tab a {
+    color: var(--hp-purple-light);
+    font-weight: 500;
+}
+
+.hogwarts-tabs .tab a:hover,
+.hogwarts-tabs .tab a.active {
+    color: var(--hp-gryffindor);
+}
+
+.hogwarts-tabs .indicator {
+    background-color: var(--hp-gold);
+}
+
+/* Badges de color por casa */
+.hogwarts-chip-gryffindor { background-color: var(--hp-gryffindor); color: #fff; }
+.hogwarts-chip-slytherin  { background-color: var(--hp-slytherin);  color: #fff; }
+.hogwarts-chip-ravenclaw  { background-color: var(--hp-ravenclaw);  color: #fff; }
+.hogwarts-chip-hufflepuff { background-color: var(--hp-hufflepuff); color: #3b2a00; }
+
 /* ===== MAGIA - INTEGRANTE 3 ===== */
 
 /* ==================================================

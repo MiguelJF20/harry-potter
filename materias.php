@@ -125,13 +125,13 @@
                 <div id="optativas" class="col s12">
                     <ul class="collection" style="margin-top:24px;">
                         <li class="collection-item avatar">
-                            <img src="img/pociones.jpg" alt="Adivinacion" class="circle">
+                            <img src="img/adivinacion.jpg" alt="Adivinacion" class="circle">
                             <span class="title">Adivinacion</span>
                             <p><strong>Profesor:</strong> Sybill Trelawney<br>
                                <strong>Curso:</strong> Tercer año en adelante</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/herbologia.jpg" alt="Cuidado de Criaturas Magicas" class="circle">
+                            <img src="img/cuidado.jpg" alt="Cuidado de Criaturas Magicas" class="circle">
                             <span class="title">Cuidado de Criaturas Magicas</span>
                             <p><strong>Profesor:</strong> Rubeus Hagrid<br>
                                <strong>Curso:</strong> Tercer año en adelante</p>
@@ -142,7 +142,7 @@
                 <div id="otros" class="col s12">
                     <ul class="collection" style="margin-top:24px;">
                         <li class="collection-item avatar">
-                            <img src="img/astronomia.jpg" alt="Historia de la Magia" class="circle">
+                            <img src="img/historia.jpg" alt="Historia de la Magia" class="circle">
                             <span class="title">Historia de la Magia</span>
                             <p><strong>Profesor:</strong> Cuthbert Binns<br>
                                <strong>Curso:</strong> Todos los cursos</p>
