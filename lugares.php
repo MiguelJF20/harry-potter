@@ -11,7 +11,7 @@
 
     <div class="section hp-purple white-text" style="background-color:#2a1140;">
         <div class="container">
-            <h2 class="hp-title white-text" style="margin-bottom:0;">Lugares del Castillo</h2>
+            <h2 class="hp-title white-text" style="margin-bottom:10;">Lugares del Castillo</h2>
         </div>
     </div>
 
@@ -23,27 +23,27 @@
 
             <div class="carousel hogwarts-carousel">
                 <a class="carousel-item" href="#!">
-                    <img src="img/comedor.svg" alt="El Gran Comedor">
+                    <img src="img/comedor.jpg" alt="El Gran Comedor">
                     <div class="hogwarts-carousel-caption">El Gran Comedor</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/biblioteca.svg" alt="La Biblioteca">
+                    <img src="img/biblioteca.jpg" alt="La Biblioteca">
                     <div class="hogwarts-carousel-caption">La Biblioteca</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/menesteres.svg" alt="Sala de los Menesteres">
+                    <img src="img/menesteres.jpg" alt="Sala de los Menesteres">
                     <div class="hogwarts-carousel-caption">Sala de los Menesteres</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/invernaderos.svg" alt="Los Invernaderos">
+                    <img src="img/invernaderos.jpg" alt="Los Invernaderos">
                     <div class="hogwarts-carousel-caption">Los Invernaderos</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/sauce.svg" alt="El Sauce Boxeador">
+                    <img src="img/sauce.jpg" alt="El Sauce Boxeador">
                     <div class="hogwarts-carousel-caption">El Sauce Boxeador</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/castillo.svg" alt="El Castillo de Hogwarts">
+                    <img src="img/castillo.jpg" alt="El Castillo de Hogwarts">
                     <div class="hogwarts-carousel-caption">El Castillo de Hogwarts</div>
                 </a>
             </div>
@@ -66,11 +66,11 @@
                 </div>
 
                 <div id="interiores" class="col s12">
-                    <div class="row" style="margin-top:24px;">
+                    <div class="row" style="margin-top:24px; width: 800px;">
                         <div class="col s12 m6">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/comedor.svg" alt="El Gran Comedor">
+                                    <img src="img/comedor.jpg" alt="El Gran Comedor">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">El Gran Comedor</span>
@@ -81,7 +81,7 @@
                         <div class="col s12 m6">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/biblioteca.svg" alt="La Biblioteca">
+                                    <img src="img/biblioteca.jpg" alt="La Biblioteca">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">La Biblioteca</span>
@@ -93,11 +93,11 @@
                 </div>
 
                 <div id="exteriores" class="col s12">
-                    <div class="row" style="margin-top:24px;">
-                        <div class="col s12 m6">
+                    <div class="row" style="margin-top:24px; width: 1000px;">
+                        <div class="col s12 m3">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/invernaderos.svg" alt="Los Invernaderos">
+                                    <img src="img/invernaderos.jpg" alt="Los Invernaderos">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">Los Invernaderos</span>
@@ -105,10 +105,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col s12 m6">
+                        <div class="col s12 m3">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/sauce.svg" alt="El Sauce Boxeador">
+                                    <img src="img/sauce.jpg" alt="El Sauce Boxeador">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">El Sauce Boxeador</span>
@@ -116,10 +116,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col s12 m6">
+                        <div class="col s12 m3">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/castillo.svg" alt="El Castillo de Hogwarts">
+                                    <img src="img/castillo.jpg" alt="El Castillo de Hogwarts">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">El Castillo de Hogwarts</span>
@@ -131,11 +131,11 @@
                 </div>
 
                 <div id="secretos" class="col s12">
-                    <div class="row" style="margin-top:24px;">
-                        <div class="col s12 m6">
+                    <div class="row" style="margin-top:24px; width: 300px;">
+                        <div class="col s12 m12">
                             <div class="card hp-card">
                                 <div class="card-image">
-                                    <img src="img/menesteres.svg" alt="Sala de los Menesteres">
+                                    <img src="img/menesteres.jpg" alt="Sala de los Menesteres">
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">Sala de los Menesteres</span>
