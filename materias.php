@@ -23,43 +23,43 @@
 
             <div class="carousel hogwarts-carousel">
                 <a class="carousel-item" href="#!">
-                    <img src="img/pociones.svg" alt="Pociones">
+                    <img src="img/pociones.jpg" alt="Pociones">
                     <div class="hogwarts-carousel-caption">Pociones</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/encantamientos.svg" alt="Encantamientos">
+                    <img src="img/encantamientos.jpg" alt="Encantamientos">
                     <div class="hogwarts-carousel-caption">Encantamientos</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/defensa.svg" alt="Defensa Contra las Artes Oscuras">
+                    <img src="img/defensa.jpg" alt="Defensa Contra las Artes Oscuras">
                     <div class="hogwarts-carousel-caption">Defensa Contra las Artes Oscuras</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/herbologia.svg" alt="Herbologia">
+                    <img src="img/herbologia.jpg" alt="Herbologia">
                     <div class="hogwarts-carousel-caption">Herbologia</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/transformaciones.svg" alt="Transformaciones">
+                    <img src="img/transformaciones.jpg" alt="Transformaciones">
                     <div class="hogwarts-carousel-caption">Transformaciones</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/astronomia.svg" alt="Astronomia">
+                    <img src="img/astronomia.jpg" alt="Astronomia">
                     <div class="hogwarts-carousel-caption">Astronomia</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/pociones.svg" alt="Adivinacion">
+                    <img src="img/adivinacion.jpg" alt="Adivinacion">
                     <div class="hogwarts-carousel-caption">Adivinacion</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/herbologia.svg" alt="Cuidado de Criaturas Magicas">
+                    <img src="img/cuidado.jpg" alt="Cuidado de Criaturas Magicas">
                     <div class="hogwarts-carousel-caption">Cuidado de Criaturas Magicas</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/astronomia.svg" alt="Historia de la Magia">
+                    <img src="img/historia.jpg" alt="Historia de la Magia">
                     <div class="hogwarts-carousel-caption">Historia de la Magia</div>
                 </a>
                 <a class="carousel-item" href="#!">
-                    <img src="img/castillo.svg" alt="Vuelo en Escoba">
+                    <img src="img/vuelo.jpg" alt="Vuelo en Escoba">
                     <div class="hogwarts-carousel-caption">Vuelo en Escoba</div>
                 </a>
             </div>
@@ -84,37 +84,37 @@
                 <div id="obligatorias" class="col s12">
                     <ul class="collection" style="margin-top:24px;">
                         <li class="collection-item avatar">
-                            <img src="img/pociones.svg" alt="Pociones" class="circle">
+                            <img src="img/pociones.jpg" alt="Pociones" class="circle">
                             <span class="title">Pociones</span>
                             <p><strong>Profesor:</strong> Severus Snape / Horace Slughorn<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/encantamientos.svg" alt="Encantamientos" class="circle">
+                            <img src="img/encantamientos.jpg" alt="Encantamientos" class="circle">
                             <span class="title">Encantamientos</span>
                             <p><strong>Profesor:</strong> Filius Flitwick<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/defensa.svg" alt="Defensa Contra las Artes Oscuras" class="circle">
+                            <img src="img/defensa.jpg" alt="Defensa Contra las Artes Oscuras" class="circle">
                             <span class="title">Defensa Contra las Artes Oscuras</span>
                             <p><strong>Profesor:</strong> Remus Lupin y otros<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/herbologia.svg" alt="Herbologia" class="circle">
+                            <img src="img/herbologia.jpg" alt="Herbologia" class="circle">
                             <span class="title">Herbologia</span>
                             <p><strong>Profesor:</strong> Pomona Sprout<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/transformaciones.svg" alt="Transformaciones" class="circle">
+                            <img src="img/transformaciones.jpg" alt="Transformaciones" class="circle">
                             <span class="title">Transformaciones</span>
                             <p><strong>Profesor:</strong> Minerva McGonagall<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/astronomia.svg" alt="Astronomia" class="circle">
+                            <img src="img/astronomia.jpg" alt="Astronomia" class="circle">
                             <span class="title">Astronomia</span>
                             <p><strong>Profesor:</strong> Aurora Sinistra<br>
                                <strong>Curso:</strong> Todos los cursos</p>
@@ -125,13 +125,13 @@
                 <div id="optativas" class="col s12">
                     <ul class="collection" style="margin-top:24px;">
                         <li class="collection-item avatar">
-                            <img src="img/pociones.svg" alt="Adivinacion" class="circle">
+                            <img src="img/pociones.jpg" alt="Adivinacion" class="circle">
                             <span class="title">Adivinacion</span>
                             <p><strong>Profesor:</strong> Sybill Trelawney<br>
                                <strong>Curso:</strong> Tercer año en adelante</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/herbologia.svg" alt="Cuidado de Criaturas Magicas" class="circle">
+                            <img src="img/herbologia.jpg" alt="Cuidado de Criaturas Magicas" class="circle">
                             <span class="title">Cuidado de Criaturas Magicas</span>
                             <p><strong>Profesor:</strong> Rubeus Hagrid<br>
                                <strong>Curso:</strong> Tercer año en adelante</p>
@@ -142,13 +142,13 @@
                 <div id="otros" class="col s12">
                     <ul class="collection" style="margin-top:24px;">
                         <li class="collection-item avatar">
-                            <img src="img/astronomia.svg" alt="Historia de la Magia" class="circle">
+                            <img src="img/astronomia.jpg" alt="Historia de la Magia" class="circle">
                             <span class="title">Historia de la Magia</span>
                             <p><strong>Profesor:</strong> Cuthbert Binns<br>
                                <strong>Curso:</strong> Todos los cursos</p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/castillo.svg" alt="Vuelo en Escoba" class="circle">
+                            <img src="img/vuelo.jpg" alt="Vuelo en Escoba" class="circle">
                             <span class="title">Vuelo en Escoba</span>
                             <p><strong>Profesor:</strong> Rolanda Hooch<br>
                                <strong>Curso:</strong> Primer año</p>
