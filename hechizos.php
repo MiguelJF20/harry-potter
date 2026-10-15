@@ -9,7 +9,7 @@
 
     <main>
 
-        <!-- ===== SLIDER (componente 3) ===== -->
+        <!-- ===== SLIDER (SIN MODIFICACIONES) ===== -->
         <div class="container">
             <div class="slider magia-slider">
                 <ul class="slides">
@@ -40,10 +40,13 @@
 
         <div class="container">
 
-            <!-- ===== CHIPS (componente 2) ===== -->
+            <!-- ===== CHIPS ===== -->
             <div class="section">
                 <h4>Tipos de hechizos</h4>
-                <p>Los hechizos se agrupan por lo que hacen. Estas son las categorías de la tabla:</p>
+                <p>
+                    Descubre las categorías de los hechizos según su función
+                    y el efecto que producen en el mundo mágico.
+                </p>
 
                 <div class="chip chip-encantamiento">Encantamiento</div>
                 <div class="chip chip-defensa">Defensa</div>
@@ -51,82 +54,135 @@
                 <div class="chip chip-oscuro">Maldición imperdonable</div>
             </div>
 
-            <!-- ===== TABLE (componente 1) ===== -->
+            <!-- ===== TARJETAS DESTACADAS ===== -->
+            <div class="section">
+                <h4>Hechizos que marcaron la historia</h4>
+                <p>Estos tres hechizos representan distintas formas de utilizar la magia.</p>
+
+                <div class="row tarjetas-magicas">
+
+                    <div class="col s4">
+                        <div class="card tarjeta-hechizo tarjeta-defensa">
+                            <div class="card-content">
+                                <span class="card-title">Expecto Patronum</span>
+                                <p class="etiqueta-tarjeta">DEFENSA</p>
+                                <p>Invoca un Patronus capaz de ahuyentar a los dementores.</p>
+                                <p class="personaje-tarjeta">Destacado: Harry Potter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-hechizo tarjeta-encantamiento">
+                            <div class="card-content">
+                                <span class="card-title">Wingardium Leviosa</span>
+                                <p class="etiqueta-tarjeta">ENCANTAMIENTO</p>
+                                <p>Permite hacer levitar objetos mediante la magia.</p>
+                                <p class="personaje-tarjeta">Destacada: Hermione Granger</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-hechizo tarjeta-oscuro">
+                            <div class="card-content">
+                                <span class="card-title">Avada Kedavra</span>
+                                <p class="etiqueta-tarjeta">MAGIA OSCURA</p>
+                                <p>Es una de las tres maldiciones imperdonables.</p>
+                                <p class="personaje-tarjeta">Asociado: Voldemort</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ===== TABLA ===== -->
             <div class="section">
                 <h4>Hechizos más conocidos</h4>
+                <p>Las etiquetas de colores permiten reconocer rápidamente la función de cada hechizo.</p>
 
-                <table class="striped responsive-table">
+                <table class="striped responsive-table tabla-magica">
                     <thead>
                         <tr>
-                            <th>Hechizo</th>
-                            <th>Efecto</th>
-                            <th>Categoría</th>
-                            <th>Lo usa</th>
+                            <th scope="col">Hechizo</th>
+                            <th scope="col">Efecto</th>
+                            <th scope="col">Categoría</th>
+                            <th scope="col">Lo usa</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Expelliarmus</td>
-                            <td>Desarma al oponente</td>
-                            <td><div class="chip chip-defensa">Defensa</div></td>
+                        <tr class="fila-encantamiento">
+                            <td><strong>Accio</strong></td>
+                            <td>Atrae un objeto hacia quien lo lanza.</td>
+                            <td><span class="chip chip-encantamiento">Encantamiento</span></td>
                             <td>Harry Potter</td>
                         </tr>
-                        <tr>
-                            <td>Protego</td>
-                            <td>Crea un escudo que bloquea hechizos</td>
-                            <td><div class="chip chip-defensa">Defensa</div></td>
+                        <tr class="fila-defensa">
+                            <td><strong>Expelliarmus</strong></td>
+                            <td>Desarma al oponente.</td>
+                            <td><span class="chip chip-defensa">Defensa</span></td>
+                            <td>Harry Potter</td>
+                        </tr>
+                        <tr class="fila-defensa">
+                            <td><strong>Protego</strong></td>
+                            <td>Crea un escudo que bloquea hechizos.</td>
+                            <td><span class="chip chip-defensa">Defensa</span></td>
                             <td>Hermione Granger</td>
                         </tr>
-                        <tr>
-                            <td>Expecto Patronum</td>
-                            <td>Invoca un Patronus que ahuyenta a los dementores</td>
-                            <td><div class="chip chip-defensa">Defensa</div></td>
+                        <tr class="fila-defensa">
+                            <td><strong>Expecto Patronum</strong></td>
+                            <td>Invoca un Patronus que ahuyenta a los dementores.</td>
+                            <td><span class="chip chip-defensa">Defensa</span></td>
                             <td>Harry Potter</td>
                         </tr>
-                        <tr>
-                            <td>Wingardium Leviosa</td>
-                            <td>Hace flotar objetos</td>
-                            <td><div class="chip chip-encantamiento">Encantamiento</div></td>
+                        <tr class="fila-encantamiento">
+                            <td><strong>Wingardium Leviosa</strong></td>
+                            <td>Hace flotar objetos.</td>
+                            <td><span class="chip chip-encantamiento">Encantamiento</span></td>
                             <td>Hermione Granger</td>
                         </tr>
-                        <tr>
-                            <td>Accio</td>
-                            <td>Atrae un objeto hacia quien lo lanza</td>
-                            <td><div class="chip chip-encantamiento">Encantamiento</div></td>
+                        <tr class="fila-utilidad">
+                            <td><strong>Lumos</strong></td>
+                            <td>Enciende una luz en la punta de la varita.</td>
+                            <td><span class="chip chip-utilidad">Utilidad</span></td>
                             <td>Harry Potter</td>
                         </tr>
-                        <tr>
-                            <td>Lumos</td>
-                            <td>Enciende luz en la punta de la varita</td>
-                            <td><div class="chip chip-utilidad">Utilidad</div></td>
-                            <td>Harry Potter</td>
-                        </tr>
-                        <tr>
-                            <td>Alohomora</td>
-                            <td>Abre cerraduras</td>
-                            <td><div class="chip chip-utilidad">Utilidad</div></td>
+                        <tr class="fila-utilidad">
+                            <td><strong>Alohomora</strong></td>
+                            <td>Abre cerraduras mágicas o convencionales.</td>
+                            <td><span class="chip chip-utilidad">Utilidad</span></td>
                             <td>Hermione Granger</td>
                         </tr>
-                        <tr>
-                            <td>Avada Kedavra</td>
-                            <td>Causa la muerte instantánea</td>
-                            <td><div class="chip chip-oscuro">Maldición imperdonable</div></td>
+                        <tr class="fila-oscuro">
+                            <td><strong>Avada Kedavra</strong></td>
+                            <td>Provoca la muerte de la víctima.</td>
+                            <td><span class="chip chip-oscuro">Maldición imperdonable</span></td>
                             <td>Voldemort</td>
                         </tr>
-                        <tr>
-                            <td>Crucio</td>
-                            <td>Provoca un dolor insoportable</td>
-                            <td><div class="chip chip-oscuro">Maldición imperdonable</div></td>
+                        <tr class="fila-oscuro">
+                            <td><strong>Crucio</strong></td>
+                            <td>Provoca un dolor insoportable.</td>
+                            <td><span class="chip chip-oscuro">Maldición imperdonable</span></td>
                             <td>Bellatrix Lestrange</td>
                         </tr>
-                        <tr>
-                            <td>Imperio</td>
-                            <td>Controla la voluntad de la víctima</td>
-                            <td><div class="chip chip-oscuro">Maldición imperdonable</div></td>
+                        <tr class="fila-oscuro">
+                            <td><strong>Imperio</strong></td>
+                            <td>Permite controlar la voluntad de la víctima.</td>
+                            <td><span class="chip chip-oscuro">Maldición imperdonable</span></td>
                             <td>Voldemort</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <!-- ===== DATO CURIOSO ===== -->
+            <div class="section dato-magico dato-hechizos">
+                <h5>¿Sabías que...?</h5>
+                <p>
+                    Expelliarmus es uno de los hechizos más característicos de Harry.
+                    En lugar de atacar directamente, busca desarmar al adversario.
+                </p>
             </div>
 
         </div>
@@ -135,9 +191,10 @@
     <?php include_once("INCLUDES/footer.php"); ?>
 
     <script>
-        M.Slider.init(document.querySelectorAll('.slider'), {
-            height: 500,
-            interval: 5000
+        M.Slider.init(document.querySelectorAll('.magia-slider'), {
+            height: 550,
+            interval: 5000,
+            indicators: true
         });
     </script>
 </body>

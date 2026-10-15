@@ -9,29 +9,31 @@
 
     <main>
 
-        <!-- ===== SLIDER (componente 3) ===== -->
+        <!-- ===== SLIDER (SIN MODIFICACIONES) ===== -->
         <div class="container">
             <div class="slider magia-slider">
                 <ul class="slides">
                     <li>
-                        <img src="img/criatura1.jpg" alt="Fénix, acromántula y basilisco">
+                        <img src="img/criatura1.jpg" alt="Fénix mágico">
                         <div class="caption left-align">
                             <h3>Criaturas mágicas</h3>
-                            <h5 class="light grey-text text-lighten-3">Del fénix al basilisco: unas son aliadas y otras mortales.</h5>
+                            <h5>Seres extraordinarios del mundo mágico.</h5>
                         </div>
                     </li>
+
                     <li>
-                        <img src="img/criatura2.jpg" alt="Fénix">
-                        <div class="caption center-align">
-                            <h3>Fénix</h3>
-                            <h5 class="light grey-text text-lighten-3">Renace de sus cenizas y acompaña a Dumbledore.</h5>
+                        <img src="img/criatura2.jpg" alt="Dragón mágico">
+                        <div class="caption left-align">
+                            <h3>Dragones</h3>
+                            <h5>Criaturas poderosas que exigen precaución.</h5>
                         </div>
                     </li>
+
                     <li>
-                        <img src="img/criatura3.jpg" alt="Dragón">
-                        <div class="caption right-align">
-                            <h3>Dragón</h3>
-                            <h5 class="light grey-text text-lighten-3">Harry se enfrenta a uno en el Torneo de los Tres Magos.</h5>
+                        <img src="img/criatura3.jpg" alt="Basilisco">
+                        <div class="caption left-align">
+                            <h3>El basilisco</h3>
+                            <h5>Una de las criaturas más peligrosas.</h5>
                         </div>
                     </li>
                 </ul>
@@ -40,80 +42,133 @@
 
         <div class="container">
 
-            <!-- ===== CHIPS (componente 2) ===== -->
+            <!-- ===== CHIPS ===== -->
             <div class="section">
                 <h4>Nivel de peligro</h4>
-                <p>Las criaturas de la tabla se clasifican según el riesgo que representan:</p>
+                <p>Las criaturas de la tabla se clasifican según el riesgo que representan.</p>
 
                 <div class="chip chip-pacifica">Pacífica</div>
                 <div class="chip chip-peligrosa">Peligrosa</div>
                 <div class="chip chip-mortal">Muy peligrosa</div>
             </div>
 
-            <!-- ===== TABLE (componente 1) ===== -->
+            <!-- ===== TARJETAS DESTACADAS ===== -->
+            <div class="section">
+                <h4>Habitantes extraordinarios del mundo mágico</h4>
+                <p>No todas las criaturas mágicas son hostiles; algunas son aliadas de los magos.</p>
+
+                <div class="row tarjetas-magicas">
+
+                    <div class="col s4">
+                        <div class="card tarjeta-criatura tarjeta-pacifica">
+                            <div class="card-content">
+                                <span class="card-title">Fénix</span>
+                                <p class="etiqueta-tarjeta">PACÍFICA</p>
+                                <p>Ave extraordinaria que renace de sus cenizas y posee lágrimas curativas.</p>
+                                <p class="personaje-tarjeta">Ejemplo: Fawkes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-criatura tarjeta-peligrosa">
+                            <div class="card-content">
+                                <span class="card-title">Hipogrifo</span>
+                                <p class="etiqueta-tarjeta">REQUIERE PRECAUCIÓN</p>
+                                <p>Combina características de águila y caballo. Es importante acercarse con respeto.</p>
+                                <p class="personaje-tarjeta">Ejemplo: Buckbeak</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s4">
+                        <div class="card tarjeta-criatura tarjeta-mortal">
+                            <div class="card-content">
+                                <span class="card-title">Basilisco</span>
+                                <p class="etiqueta-tarjeta">MUY PELIGROSA</p>
+                                <p>Serpiente gigantesca cuya mirada directa puede resultar mortal.</p>
+                                <p class="personaje-tarjeta">Lugar: Cámara Secreta</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ===== TABLA ===== -->
             <div class="section">
                 <h4>Criaturas más conocidas</h4>
+                <p>Los colores indican el nivel de peligro asignado a cada criatura.</p>
 
-                <table class="striped responsive-table">
+                <table class="striped responsive-table tabla-magica">
                     <thead>
                         <tr>
-                            <th>Criatura</th>
-                            <th>Descripción</th>
-                            <th>Peligro</th>
-                            <th>Dónde o con quién aparece</th>
+                            <th scope="col">Criatura</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Peligro</th>
+                            <th scope="col">Dónde o con quién aparece</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Hipogrifo</td>
-                            <td>Mitad águila y mitad caballo; exige respeto y que se le haga una reverencia</td>
-                            <td><div class="chip chip-peligrosa">Peligrosa</div></td>
+                        <tr class="fila-peligrosa">
+                            <td><strong>Hipogrifo</strong></td>
+                            <td>Mitad águila y mitad caballo; exige respeto y una reverencia.</td>
+                            <td><span class="chip chip-peligrosa">Peligrosa</span></td>
                             <td>Buckbeak, con Hagrid</td>
                         </tr>
-                        <tr>
-                            <td>Fénix</td>
-                            <td>Ave que renace de sus cenizas y cuyas lágrimas curan</td>
-                            <td><div class="chip chip-pacifica">Pacífica</div></td>
+                        <tr class="fila-pacifica">
+                            <td><strong>Fénix</strong></td>
+                            <td>Ave que renace de sus cenizas y cuyas lágrimas tienen propiedades curativas.</td>
+                            <td><span class="chip chip-pacifica">Pacífica</span></td>
                             <td>Fawkes, con Dumbledore</td>
                         </tr>
-                        <tr>
-                            <td>Thestral</td>
-                            <td>Caballo alado que solo ven quienes han presenciado una muerte</td>
-                            <td><div class="chip chip-pacifica">Pacífica</div></td>
-                            <td>Bosque Prohibido</td>
+                        <tr class="fila-pacifica">
+                            <td><strong>Thestral</strong></td>
+                            <td>Caballo alado que pueden ver quienes han comprendido la experiencia de la muerte.</td>
+                            <td><span class="chip chip-pacifica">Pacífica</span></td>
+                            <td>Hogwarts y el Bosque Prohibido</td>
                         </tr>
-                        <tr>
-                            <td>Elfo doméstico</td>
-                            <td>Ser que sirve a una familia de magos y tiene una magia distinta</td>
-                            <td><div class="chip chip-pacifica">Pacífica</div></td>
+                        <tr class="fila-pacifica">
+                            <td><strong>Elfo doméstico</strong></td>
+                            <td>Ser mágico con habilidades propias, tradicionalmente vinculado al servicio de familias.</td>
+                            <td><span class="chip chip-pacifica">Pacífica</span></td>
                             <td>Dobby</td>
                         </tr>
-                        <tr>
-                            <td>Escreguto de cola explosiva</td>
-                            <td>Criatura híbrida con aguijón y cola que lanza chispas</td>
-                            <td><div class="chip chip-peligrosa">Peligrosa</div></td>
+                        <tr class="fila-peligrosa">
+                            <td><strong>Escreguto de cola explosiva</strong></td>
+                            <td>Criatura híbrida con cola peligrosa que puede producir explosiones.</td>
+                            <td><span class="chip chip-peligrosa">Peligrosa</span></td>
                             <td>Clases de Hagrid</td>
                         </tr>
-                        <tr>
-                            <td>Dementor</td>
-                            <td>Se alimenta de la felicidad de las personas y causa desesperanza</td>
-                            <td><div class="chip chip-mortal">Muy peligrosa</div></td>
+                        <tr class="fila-mortal">
+                            <td><strong>Dementor</strong></td>
+                            <td>Ser que se alimenta de la felicidad y provoca desesperación.</td>
+                            <td><span class="chip chip-mortal">Muy peligrosa</span></td>
                             <td>Azkaban</td>
                         </tr>
-                        <tr>
-                            <td>Basilisco</td>
-                            <td>Serpiente gigante cuya mirada puede matar</td>
-                            <td><div class="chip chip-mortal">Muy peligrosa</div></td>
+                        <tr class="fila-mortal">
+                            <td><strong>Basilisco</strong></td>
+                            <td>Serpiente gigante cuya mirada directa puede matar.</td>
+                            <td><span class="chip chip-mortal">Muy peligrosa</span></td>
                             <td>Cámara Secreta</td>
                         </tr>
-                        <tr>
-                            <td>Dragón</td>
-                            <td>Reptil gigante que escupe fuego y protege sus huevos</td>
-                            <td><div class="chip chip-mortal">Muy peligrosa</div></td>
+                        <tr class="fila-mortal">
+                            <td><strong>Dragón</strong></td>
+                            <td>Reptil gigante que escupe fuego y puede atacar para defenderse.</td>
+                            <td><span class="chip chip-mortal">Muy peligrosa</span></td>
                             <td>Torneo de los Tres Magos</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+
+            <!-- ===== DATO CURIOSO ===== -->
+            <div class="section dato-magico dato-criaturas">
+                <h5>¿Sabías que...?</h5>
+                <p>
+                    El fénix es conocido por su capacidad de renacer de sus cenizas.
+                    En la historia, Fawkes también demuestra lealtad y ayuda a Harry en momentos importantes.
+                </p>
             </div>
 
         </div>
@@ -122,9 +177,10 @@
     <?php include_once("INCLUDES/footer.php"); ?>
 
     <script>
-        M.Slider.init(document.querySelectorAll('.slider'), {
-            height: 500,
-            interval: 5000
+        M.Slider.init(document.querySelectorAll('.magia-slider'), {
+            height: 550,
+            interval: 5000,
+            indicators: true
         });
     </script>
 </body>
