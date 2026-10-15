@@ -103,13 +103,13 @@ h1, h2, h3, h4, h5, .hp-title {
 /* ===== HOGWARTS - integrante 2 ===== */
 
 .hogwarts-emblem {
-    width: 150px;
+    width: 250px;
     margin: 18px auto 0 auto;
     display: block;
 }
 
 .hogwarts-carousel .carousel-item {
-    width: 220px;
+    width: 200px;
     margin-top: -50px;
 }
 
