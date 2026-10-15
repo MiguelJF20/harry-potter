@@ -129,108 +129,478 @@ h1, h2, h3, h4, h5, .hp-title {
     justify-content: center;
 }
 
+/* ===== MAGIA - INTEGRANTE 3 ===== */
 
+/* ==================================================
+   SLIDER
+   CONSERVADO SIN MODIFICACIONES
+   ================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===== MAGIA - integrante 3 ===== */
-
-/* Slider */
 .magia-slider {
+    height: 550px !important;
+    background-color: #1a1a2e;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 28px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Altura uniforme de las diapositivas */
+.magia-slider .slides {
+    height: 550px !important;
     background-color: #1a1a2e;
 }
+
+/* Imágenes del slider */
 .magia-slider .slides li img {
-    background-size: cover;
-    background-position: center;
-}
-.magia-slider .caption {
-    top: auto;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    padding: 30px 8% 30px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
 }
-.magia-slider .caption h3 {
+
+/* Degradado sobre la imagen */
+.magia-slider .slides li::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85) 0%,
+        rgba(0, 0, 0, 0.35) 45%,
+        rgba(0, 0, 0, 0.02) 100%
+    );
+    pointer-events: none;
+}
+
+/* Texto superpuesto */
+.magia-slider .slides .caption {
+    z-index: 2;
+    top: auto !important;
+    bottom: 48px;
+    left: 6%;
+    right: 6%;
+    width: 88%;
+    box-sizing: border-box;
+    padding: 0;
+    background: none;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
+    color: #ffffff;
+}
+
+/* Título principal */
+.magia-slider .slides .caption h3 {
+    margin: 0 0 10px;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #ffffff;
+}
+
+/* Descripción */
+.magia-slider .slides .caption h5 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #eeeeee !important;
 }
-.magia-slider .caption h5 {
-    margin: 4px 0 0;
-    font-size: 1.1rem;
+
+/* Indicadores del slider */
+.magia-slider .indicators {
+    position: absolute;
+    z-index: 5;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
 
-/* Chips: hechizos */
-.chip-encantamiento { background-color: #ecb939; color: #2a2000; }
-.chip-defensa       { background-color: #0e1a40; color: #ffffff; }
-.chip-utilidad      { background-color: #2a623d; color: #ffffff; }
-.chip-oscuro        { background-color: #1a1a1a; color: #ffffff; }
+/* Indicadores inactivos */
+.magia-slider .indicators .indicator-item {
+    width: 9px;
+    height: 9px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.55);
+}
 
-/* Chips: pociones */
-.chip-transformacion { background-color: #6a3d9a; color: #ffffff; }
-.chip-curacion       { background-color: #2a623d; color: #ffffff; }
-.chip-suerte         { background-color: #ecb939; color: #2a2000; }
-.chip-mente          { background-color: #0e1a40; color: #ffffff; }
-
-/* Chips: criaturas */
-.chip-pacifica  { background-color: #2a623d; color: #ffffff; }
-.chip-peligrosa { background-color: #d3a625; color: #2a2000; }
-.chip-mortal    { background-color: #740001; color: #ffffff; }
+/* Indicador activo */
+.magia-slider .indicators .indicator-item.active {
+    background-color: #ffffff;
+}
 
 
+/* ==================================================
+   CHIPS: HECHIZOS
+   ================================================== */
+
+.chip-encantamiento {
+    background-color: #ecb939;
+    color: #2a2000;
+}
+
+.chip-defensa {
+    background-color: #0e1a40;
+    color: #ffffff;
+}
+
+.chip-utilidad {
+    background-color: #2a623d;
+    color: #ffffff;
+}
+
+.chip-oscuro {
+    background-color: #740001;
+    color: #ffffff;
+}
 
 
+/* ==================================================
+   CHIPS: POCIONES
+   ================================================== */
+
+.chip-transformacion {
+    background-color: #6a3d9a;
+    color: #ffffff;
+}
+
+.chip-curacion {
+    background-color: #2a623d;
+    color: #ffffff;
+}
+
+.chip-suerte {
+    background-color: #ecb939;
+    color: #2a2000;
+}
+
+.chip-mente {
+    background-color: #0e1a40;
+    color: #ffffff;
+}
 
 
+/* ==================================================
+   CHIPS: CRIATURAS
+   ================================================== */
 
+.chip-pacifica {
+    background-color: #2a623d;
+    color: #ffffff;
+}
+
+.chip-peligrosa {
+    background-color: #ecb939;
+    color: #2a2000;
+}
+
+.chip-mortal {
+    background-color: #740001;
+    color: #ffffff;
+}
+
+
+/* ==================================================
+   ESTILO GENERAL DE LOS CHIPS
+   ================================================== */
+
+.chip {
+    font-weight: 600;
+    margin: 5px 6px 5px 0;
+    border-radius: 20px;
+}
+
+
+/* ==================================================
+   TABLAS
+   ================================================== */
+
+main .section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Encabezados */
+main .section table thead {
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+/* Celdas */
+main .section table th,
+main .section table td {
+    padding: 14px 12px;
+    vertical-align: middle;
+}
+
+/* Texto de encabezados */
+main .section table th {
+    font-weight: 600;
+}
+
+/* Filas alternadas */
+main .section table.striped > tbody > tr:nth-child(odd) {
+    background-color: #f1f0f5;
+}
+
+/* Separación entre secciones */
+main .section h4 {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+
+/* ==================================================
+   NUEVO: TABLAS MÁGICAS CON COLORES POR CATEGORÍA
+   ================================================== */
+
+/* Transición suave al pasar el cursor */
+.tabla-magica tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+/* Nombre de cada hechizo, poción o criatura */
+.tabla-magica tbody td:first-child strong {
+    color: #1a1a2e;
+    font-size: 1.02rem;
+}
+
+/* Hechizos: tonos suaves */
+.tabla-magica tbody tr.fila-defensa {
+    background-color: #e8edf8 !important;
+}
+
+.tabla-magica tbody tr.fila-encantamiento {
+    background-color: #fff5d6 !important;
+}
+
+.tabla-magica tbody tr.fila-utilidad {
+    background-color: #e6f3e9 !important;
+}
+
+.tabla-magica tbody tr.fila-oscuro {
+    background-color: #f8e5e7 !important;
+}
+
+/* Pociones: tonos suaves */
+.tabla-magica tbody tr.fila-transformacion {
+    background-color: #f0e7fa !important;
+}
+
+.tabla-magica tbody tr.fila-curacion {
+    background-color: #e6f3e9 !important;
+}
+
+.tabla-magica tbody tr.fila-suerte {
+    background-color: #fff5d6 !important;
+}
+
+.tabla-magica tbody tr.fila-mente {
+    background-color: #e8edf8 !important;
+}
+
+/* Criaturas: tonos según el peligro */
+.tabla-magica tbody tr.fila-pacifica {
+    background-color: #e6f3e9 !important;
+}
+
+.tabla-magica tbody tr.fila-peligrosa {
+    background-color: #fff5d6 !important;
+}
+
+.tabla-magica tbody tr.fila-mortal {
+    background-color: #f8e5e7 !important;
+}
+
+/* Realce de fila al pasar el cursor */
+.tabla-magica tbody tr:hover {
+    filter: brightness(0.96);
+}
+
+/* Bordes discretos para separar las filas */
+.tabla-magica tbody td {
+    border-bottom: 1px solid rgba(26, 26, 46, 0.10);
+}
+
+
+/* ==================================================
+   NUEVO: TARJETAS DE MATERIALIZE
+   ================================================== */
+
+/* Distribución de las tarjetas */
+.tarjetas-magicas {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+/* Columnas de las tarjetas */
+.tarjetas-magicas > .col {
+    display: flex;
+}
+
+/* Apariencia general */
+.tarjeta-hechizo,
+.tarjeta-pocion,
+.tarjeta-criatura {
+    width: 100%;
+    min-height: 245px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    border-top: 5px solid #1a1a2e;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Realce visual */
+.tarjeta-hechizo:hover,
+.tarjeta-pocion:hover,
+.tarjeta-criatura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+}
+
+/* Contenido interno */
+.tarjetas-magicas .card-content {
+    padding: 22px 20px;
+}
+
+/* Títulos de las tarjetas */
+.tarjetas-magicas .card-title {
+    display: block;
+    color: #1a1a2e;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 14px;
+}
+
+/* Etiqueta de categoría */
+.etiqueta-tarjeta {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Descripción de las tarjetas */
+.tarjetas-magicas .card-content > p:not(.etiqueta-tarjeta):not(.personaje-tarjeta) {
+    color: #444444;
+    line-height: 1.6;
+}
+
+/* Personaje o dato final */
+.personaje-tarjeta {
+    margin-top: 16px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(26, 26, 46, 0.12);
+    color: #333333;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Colores superiores de tarjetas de hechizos */
+.tarjeta-defensa {
+    border-top-color: #0e1a40;
+}
+
+.tarjeta-encantamiento {
+    border-top-color: #ecb939;
+}
+
+.tarjeta-oscuro {
+    border-top-color: #740001;
+}
+
+/* Colores superiores de tarjetas de pociones */
+.tarjeta-transformacion {
+    border-top-color: #6a3d9a;
+}
+
+.tarjeta-suerte {
+    border-top-color: #ecb939;
+}
+
+.tarjeta-mente {
+    border-top-color: #0e1a40;
+}
+
+/* Colores superiores de tarjetas de criaturas */
+.tarjeta-pacifica {
+    border-top-color: #2a623d;
+}
+
+.tarjeta-peligrosa {
+    border-top-color: #ecb939;
+}
+
+.tarjeta-mortal {
+    border-top-color: #740001;
+}
+
+
+/* ==================================================
+   NUEVO: BLOQUES DE DATOS CURIOSOS
+   ================================================== */
+
+.dato-magico {
+    margin: 35px 0;
+    padding: 22px 26px;
+    border-left: 6px solid #ecb939;
+    border-radius: 6px;
+    background-color: #f5f3f8;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.dato-magico h5 {
+    margin-top: 0;
+    color: #1a1a2e;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.dato-magico p {
+    margin-bottom: 0;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Acento dorado para hechizos */
+.dato-hechizos {
+    border-left-color: #ecb939;
+}
+
+/* Acento morado para pociones */
+.dato-pociones {
+    border-left-color: #6a3d9a;
+}
+
+/* Acento verde para criaturas */
+.dato-criaturas {
+    border-left-color: #2a623d;
+}
+
+
+/* ==================================================
+   TÍTULOS DE SECCIÓN
+   ================================================== */
+
+main .section h4 {
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+main .section > p {
+    line-height: 1.7;
+}
 
 /* ===== HEROES - integrante 1 ===== */
 
@@ -240,7 +610,7 @@ h1, h2, h3, h4, h5, .hp-title {
     width: 100%;
 }
 .card-content {
-    text-align: center;
+    text-align: left;
 }
 
 
