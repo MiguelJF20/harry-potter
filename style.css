@@ -1,18 +1,132 @@
+:root {
+    --hp-purple: #2a1140;
+    --hp-purple-light: #4a1f6f;
+    --hp-gold: #d3a625;
+    --hp-gryffindor: #7f0909;
+    --hp-slytherin: #1a472a;
+    --hp-ravenclaw: #0e1a40;
+    --hp-hufflepuff: #ecb939;
+}
+
 /* ===== GENERAL (compartido) ===== */
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f1ea;
+    color: #241b2f;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
 main {
     flex: 1 0 auto;
 }
-.hogwarts-nav,
-.hogwarts-footer {
-    background-color: #740001; /* rojo Gryffindor */
+
+h1, h2, h3, h4, h5, .hp-title {
+    font-family: 'Cinzel', serif;
 }
-.hogwarts-nav .brand-logo {
-    font-size: 1.8rem;
+
+/* ---------- Navbar ---------- */
+
+.hp-nav {
+    background-color: var(--hp-purple);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+}
+
+.hp-nav .brand-logo {
+    font-family: 'Uncial Antiqua', Georgia, serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* ---------- Footer ---------- */
+.hp-footer {
+    background-color: var(--hp-purple);
+}
+
+.hp-footer .footer-copyright {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+/* ---------- Index ---------- */
+
+.hp-title {
+    color: var(--hp-purple);
+}
+
+.section-title {
+    font-weight: 700;
+    color: var(--hp-purple);
+    margin-bottom: 6px;
+}
+
+.section-sub {
+    color: #6b6b6b;
+    margin-top: 0;
+}
+
+.divider-gold {
+    background-color: var(--hp-gold);
+    height: 3px;
+    width: 120px;
+    margin: 18px 0 34px 0;
+}
+
+.card.hp-card {
+    border-top: 4px solid var(--hp-gold);
+}
+
+.hp-parallax {
+    min-height: 380px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hp-parallax-title {
+    color: #fff;
+    text-shadow: 0 4px 18px rgba(0, 0, 0, .85);
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== HOGWARTS - integrante 2 ===== */
+
+.hogwarts-emblem {
+    width: 150px;
+    margin: 18px auto 0 auto;
+    display: block;
+}
+
+.hogwarts-carousel .carousel-item {
+    width: 220px;
+    margin-top: -50px;
+}
+
+.hogwarts-carousel-caption {
+    background: rgba(42, 17, 64, .85);
+    color: #fff;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.collection .circle.hogwarts-circle {
+    background-color: var(--hp-purple-light);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -110,3 +224,30 @@ main {
 .chip-pacifica  { background-color: #2a623d; color: #ffffff; }
 .chip-peligrosa { background-color: #d3a625; color: #2a2000; }
 .chip-mortal    { background-color: #740001; color: #ffffff; }
+
+
+
+
+
+
+
+
+/* ===== HEROES - integrante 1 ===== */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-content {
+    text-align: center;
+}
+
+
+/* ===== Integrantes - GENERAL ===== */
+.card-img-top{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
