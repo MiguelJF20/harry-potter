@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
                     <div class="col s12 m4">
                         <div class="card hp-card">
                             <div class="card-content">
-                                <img class="card-img-top" src="/img/gino.jpg" alt="Imagen Integrante 1">
+                                <img class="card-img-top" src="img/gino.jpg" alt="Imagen Integrante 1">
                                 <span class="card-title"><i class="material-icons left">person</i>Ortega Espinoza
                                     Gino</span>
                                 <p>Héroes, profesores de Hogwarts y villanos del mundo mágico.</p>
@@ -35,7 +35,7 @@
                     <div class="col s12 m4">
                         <div class="card hp-card">
                             <div class="card-content">
-                                <img class="card-img-top" src="/img/sasha.jpg" alt="Imagen Integrante 2">
+                                <img class="card-img-top" src="img/sasha.jpg" alt="Imagen Integrante 2">
                                 <span class="card-title"><i class="material-icons left">person</i>Nivin Quispe
                                     Sasha</span>
                                 <p>Las 4 casas, las materias y clases, y los lugares del castillo.</p>
@@ -49,10 +49,10 @@
                     <div class="col s12 m4">
                         <div class="card hp-card">
                             <div class="card-content">
-                                <img class="card-img-top" src="/img/miguel.jpg" alt="Imagen Integrante 3">
+                                <img class="card-img-top" src="img/miguel.jpg" alt="Imagen Integrante 3">
                                 <span class="card-title"><i class="material-icons left">person</i>Jara Flores
                                     Miguel</span>
-                                <p>Hechizos, pociones y criaturas mágicas del universo.</p>
+                                <p>Hechizos, pociones y criaturas mágicas del universo de Harry Potter.</p>
                             </div>
                             <div class="card-action">
                                 <a href="hechizos.php">Magia</a>

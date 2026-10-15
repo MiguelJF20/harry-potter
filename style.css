@@ -624,7 +624,7 @@ main .section > p {
 
 /* ===== HEROES - integrante 1 ===== */
 
-.row {
+.heroes-row .profesores-row .villanos-row {
     display: flex;
     flex-wrap: wrap;
     width: 100%;

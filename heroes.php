@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,17 +15,17 @@
     <main>
         <div class="section hp-purple white-text" style="background-color:#2a1140;">
             <div class="container">
-                <h2 class="hp-title white-text" style="margin-bottom:10;">Los Héroes</h2>
+                <h2 class="hp-title white-text" style="margin-bottom: 10px;">Los Héroes</h2>
             </div>
         </div>
         <br>
         <br>
-        <div class="row">
+        <div class="row heroes-row">
             <div class="col s4">
                 <div class="heroes-container">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="/img/harry-potter.jpg" alt="Harry Potter">
+                            <img class="activator" src="img/harry-potter.jpg" alt="Harry Potter">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Harry Potter</span>
@@ -45,7 +45,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Hermione Granger.jpg" alt="Hermione Granger">
+                        <img class="activator" src="img/Hermione Granger.jpg" alt="Hermione Granger">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Hermione Granger</span>
@@ -64,7 +64,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Ron Weasley.jpg" alt="Ron Weasley">
+                        <img class="activator" src="img/Ron Weasley.jpg" alt="Ron Weasley">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Ron Weasley</span>
@@ -193,7 +193,6 @@
         </div>
 
     </main>
+    <?php include_once("INCLUDES/footer.php"); ?>
 </body>
-<footer>
-    <?php include 'INCLUDES/footer.php'; ?>
-</footer>
+</html>

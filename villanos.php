@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -20,12 +20,12 @@
         </div>
         <br>
         <br>
-        <div class="row">
+        <div class="row villanos-row">
             <div class="col s4">
                 <div class="heroes-container">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="/img/Lord Voldemort.jpg" alt="Lord Voldemort">
+                            <img class="activator" src="img/Lord Voldemort.jpg" alt="Lord Voldemort">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Lord Voldemort</span>
@@ -46,7 +46,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Bellatrix Lestrange.jpg" alt="Bellatrix Lestrange">
+                        <img class="activator" src="img/Bellatrix Lestrange.jpg" alt="Bellatrix Lestrange">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Bellatrix Lestrange</span>
@@ -66,7 +66,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Dolores Umbridge.jpg" alt="Dolores Umbridge">
+                        <img class="activator" src="img/Dolores Umbridge.jpg" alt="Dolores Umbridge">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Dolores Umbridge</span>

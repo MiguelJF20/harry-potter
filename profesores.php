@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -20,12 +20,12 @@
         </div>
         <br>
         <br>
-        <div class="row">
+        <div class="row profesor-row">
             <div class="col s4">
                 <div class="heroes-container">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="/img/Remus Lupin.jpg" alt="Remus Lupin">
+                            <img class="activator" src="img/Remus Lupin.jpg" alt="Remus Lupin">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Remus Lupin</span>
@@ -47,7 +47,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Severus Snape.jpg" alt="Severus Snape">
+                        <img class="activator" src="img/Severus Snape.jpg" alt="Severus Snape">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Severus Snape</span>
@@ -68,7 +68,7 @@
             <div class="col s4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="/img/Albus Dumbledore.jpg" alt="Albus Dumbledore">
+                        <img class="activator" src="img/Albus Dumbledore.jpg" alt="Albus Dumbledore">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Albus Dumbledore</span>
